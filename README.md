@@ -1,5 +1,5 @@
 <div align="center">
-<img src="![f145bbb8-ed97-4025-a40b-4260a8a75f6bno_alpha-4](https://github.com/haijian-wang/EartAgent/assets/130898843/229751e5-7ce5-4f75-8180-b54b44c57b90)
+<img src="![f145bbb8-ed97-4025-a40b-4260a8a75f6bno_alpha-4](https://github.com/haijian-wang/EartAgent/assets/130898843/f145bbb8-ed97-4025-a40b-4260a8a75f6bno_alpha-4.png)
 " width="350" alt="EartAgent logo">
 </a>
 </div>
