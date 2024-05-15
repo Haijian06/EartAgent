@@ -49,7 +49,7 @@ EartAgent(Efficient and real-time Agent) EartAgent是一款多模态多智能体
    > QwenAgent.api_key = "your_api_key"
    > agent = QwenAgent(
    >     config=AgentConfig(name='kerry', system_prompt=""))
-   > x = '你好kerry'
+   > x = 'Hi kerry'
    > agent(x)
    >
    > ```
