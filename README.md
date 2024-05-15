@@ -21,7 +21,7 @@ EartAgent(Efficient and real-time Agent) EartAgent是一款多模态多智能体
 
 ## 📌 近期更新
 - 2024-05-17 预计5月17号上线github
-- 2024-05-15 集成大模型 OpenAI GPT-4o。
+- 2024-05-15 集成大模型 OpenAI GPT-4o、Gemini1.5pro。
 
 ## 🎬 快速开始
 
