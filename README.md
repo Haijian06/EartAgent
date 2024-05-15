@@ -54,7 +54,7 @@ EartAgent(Efficient and real-time Agent) EartAgent是一款多模态多智能体
    > agent(x)
    >
    > ```
-   > 默认不开启记忆因为这回耗费你更多的token，当然开启也很方便
+   > 默认不开启记忆因为这会耗费你更多的token，当然开启也很方便
    > ```python
    > agent = QwenAgent(
    >     config=AgentConfig(name='kerry', system_prompt="",remember=True))
