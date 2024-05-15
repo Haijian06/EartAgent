@@ -4,8 +4,8 @@
 </div>
 
 <p align="center">
-  <a href="./README.md">English</a> |
-  <a href="./README_zh.md">简体中文</a> 
+  <a href="./README_EN.md">English</a> |
+  <a href="./README.md">简体中文</a> 
 </p>
 
 <p align="center">
