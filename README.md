@@ -26,7 +26,6 @@ EartAgent(Efficient and real-time Agent) EartAgent是一款多模态多智能体
 
 ### 📝 前提条件
 
-- CPU >= 4 核
 - python >= 3.9 
   > 如果你并没有在本机安装 pytorch（Windows、Mac，或者 Linux）, 可以参考文档 [Install pytorch](https://pytorch.org/) 自行安装。
 
