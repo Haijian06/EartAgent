@@ -44,7 +44,9 @@ EartAgent(Efficient and real-time Agent) EartAgent是一款多模态多智能体
    > 需要提前申请api_key,根据你的需求进行申请：
    > ```python
    > import EartAgent
+   >
    > form EartAgent.Agent.text_Agent import QwenAgent
+   > 
    > QwenAgent.api_key = "your_api_key"
    > agent = QwenAgent(
    >     config=AgentConfig(name='kerry', system_prompt=""))
@@ -65,23 +67,48 @@ EartAgent(Efficient and real-time Agent) EartAgent是一款多模态多智能体
    >多智能体协作能够大大的提示回复的准确性，MsgHub和Pipeline是EartAgent中智能体之间的主要通信手段
    >如果我们希望agent_1和agent_2进行交流那么会是
    >```python
-    while True:
-    x = dialogAgent(x)
-    x = userAgent(x)
-
-    # 如果用户输入"exit"，则终止对话
-    if x.content == "exit":
-        print("Exiting the conversation.")
-        break
+   >while True:
+   >x = agent_1t(x)
+   >x = agent_2(x)
+   >
+   ># 如果用户输入"exit"，则终止对话
+   >if x.content == "exit":
+   >    print("Exiting the conversation.")
+   >    break
    >```
-   > 我们准备了丰富的工具提供给Agent进行使用比如智能体联网
+   >更简单的你只需要，EartAgent提供了Pipeline来维护智能体之间消息流的选项
+   >```python
+   >pipeline = Pipeline(agent_list=[agent_1, agent_2])
+   >final_response = pipeline.execute_pipeline(initial_message="Initial message to pipeline")
+   >```
+   >其实agent还可以进行群聊沟通
+   >```python
+   >hub = MsgHub(agent_list)
+   >hub.broadcast_message("Hello, everyone.")
+   >hub.execute_pipeline()
+   >```
+   >你还可以随意的在群聊里面增删成员
+   >```python
+   >hub.add_agent(agent_3)
+   >hub.remove_agent(agent_3)
+   >```
+3.我们准备了丰富的工具提供给Agent进行使用比如智能体联网
    >```python
    >agent_1 = QwenAgent(
    >     config=AgentConfig(name='Kerry',
    >                        system_prompt="You're a good helper.",
    >                        tool_use=[
-   >                            {'name': 'serpapi_search', 'api_key': 'your_search_api_key'}]
-   >                        ))
+   >                            {'name': 'serpapi_search', 'api_key': 'your_search_api_key'}
+   >                        ]))
    > ```
-   > 
+4.我们还有更多的工具可以使用,具体的如下
+   >```python
+   >from EartAgent.utils.UT import UtilityTools
+   >tools = UtilityTools()
+   >```
+   >我们里面有很多工具等待你去探索
+5.我们还提供更多开箱即用的实例
+   >
+
+   
    
