@@ -57,12 +57,31 @@ EartAgent(Efficient and real-time Agent) EartAgent是一款多模态多智能体
    > agent = QwenAgent(
    >     config=AgentConfig(name='kerry', system_prompt="",remember=True))
    > ```
-   > 我们还支持上传所有文件,具体的
+   > 我们还支持上传所有文件和网址,让Agent回复更加是你希望的
    > ```python
-   > agent = QwenAgent(
-   >     config=AgentConfig(name='kerry', system_prompt=""))
    > agent(x,url='')
    > ```
-   > 一键构建rag
-   > 17号之前更新完所有文档..!
+2. 多智能体协调工作与交流：
+   >多智能体协作能够大大的提示回复的准确性，MsgHub和Pipeline是EartAgent中智能体之间的主要通信手段
+   >如果我们希望agent_1和agent_2进行交流那么会是
+   >```python
+    while True:
+    x = dialogAgent(x)
+    x = userAgent(x)
+
+    # 如果用户输入"exit"，则终止对话
+    if x.content == "exit":
+        print("Exiting the conversation.")
+        break
+   >```
+   > 我们准备了丰富的工具提供给Agent进行使用比如智能体联网
+   >```python
+   >agent_1 = QwenAgent(
+   >     config=AgentConfig(name='Kerry',
+   >                        system_prompt="You're a good helper.",
+   >                        tool_use=[
+   >                            {'name': 'serpapi_search', 'api_key': 'your_search_api_key'}]
+   >                        ))
+   > ```
+   > 
    
