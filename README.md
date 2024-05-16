@@ -92,7 +92,7 @@ EartAgent(Efficient and real-time Agent) EartAgent是一款多模态多智能体
    >hub.add_agent(agent_3)
    >hub.remove_agent(agent_3)
    >```
-3.我们准备了丰富的工具提供给Agent进行使用比如智能体联网
+3. 我们准备了丰富的工具提供给Agent进行使用比如智能体联网
    >```python
    >agent_1 = QwenAgent(
    >     config=AgentConfig(name='Kerry',
@@ -101,7 +101,7 @@ EartAgent(Efficient and real-time Agent) EartAgent是一款多模态多智能体
    >                            {'name': 'serpapi_search', 'api_key': 'your_search_api_key'}
    >                        ]))
    > ```
-4.我们还有更多的工具可以使用,具体的如下
+4. 我们还有更多的工具可以使用,具体的如下
    >```python
    >from EartAgent.utils.UT import UtilityTools
    >tools = UtilityTools()
