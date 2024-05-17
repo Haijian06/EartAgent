@@ -46,6 +46,10 @@ Translated with DeepL.com (free version)
    > ```bash
    > git clone https://github.com/haijian-wang/EartAgent.git
    > ```
+   > Installation of dependencies
+   > ```bash
+   >pip install -r requirements.txt
+   > ```
 
 ### 🚀 Getting Started Quickly
 
