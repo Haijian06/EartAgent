@@ -52,7 +52,7 @@ Translated with DeepL.com (free version)
 1. In the following examples we use the China Tongyi Big Model as an example:
 
    > You need to apply api_key in advance, [apply](https://dashscope.console.aliyun.com/apiKey) according to your needs:
-   > ``python
+   >```python
    > import EartAgent
    >
    > form EartAgent.Agent.text_Agent import QwenAgent
@@ -62,7 +62,6 @@ Translated with DeepL.com (free version)
    > config=AgentConfig(name='kerry', system_prompt=“”))
    > x = 'Hi kerry'
    > agent(x)
-   >
    > ```
    > Memory is not turned on by default because it will cost you more tokens, but of course it is convenient to turn it on
    > ```python
