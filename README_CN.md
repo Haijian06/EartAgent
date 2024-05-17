@@ -43,7 +43,7 @@ EartAgent(Efficient and real-time Agent) EartAgent是一款多模态多智能体
    > conda activate EartAgent
    > ```
    > ```bash
-   > pip install -r
+   > git clone https://github.com/haijian-wang/EartAgent.git
    > ```
 
 ### 🚀 快速开始
