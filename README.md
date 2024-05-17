@@ -44,7 +44,7 @@ Translated with DeepL.com (free version)
    > conda activate EartAgent
    > ```
    > ```bash
-   > git clone https://github.com/modelscope/agentscope.git
+   > git clone https://github.com/haijian-wang/EartAgent.git
    > ```
 
 ### 🚀 Getting Started Quickly
