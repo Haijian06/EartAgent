@@ -29,8 +29,6 @@ At high fault tolerance, we also provide wrapper examples for developers to use 
 - 2024-05-17 Expected to go live on github on May 17th
 - 2024-05-15 Integration of large models OpenAI GPT-4o, Gemini1.5pro.
 
-Translated with DeepL.com (free version)
-
 ## 🎬 Give it a Try
 
 ### 📝 Prerequisites
