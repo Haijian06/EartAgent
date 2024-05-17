@@ -40,10 +40,16 @@ EartAgent(Efficient and real-time Agent) EartAgent是一款多模态多智能体
    >
    > ```bash
    > conda create -n EartAgent python=3.9
+   > ```
+   > 进入环境
+   > ```bash
    > conda activate EartAgent
    > ```
    > ```bash
    > git clone https://github.com/haijian-wang/EartAgent.git
+   > ```
+   > ```bash
+   > cd EartAgent
    > ```
    > 安装依赖包
    > ```bash
@@ -142,9 +148,9 @@ EartAgent(Efficient and real-time Agent) EartAgent是一款多模态多智能体
    > ```
 ### 🤪 对于框架的我们做的内容还有很多，大家可以跟着使用
 ### 🙂 欢迎和我一起交流和探讨
-- 😃 email:wanghaijian05@gmail.com
-- 🫡 Wechat:AI_nlp_john
-- 感谢所有帮助过我的人！
+- 😃 邮箱:wanghaijian05@gmail.com
+- 🫡 微信:AI_nlp_john
+- 🤓 感谢所有帮助过我的人！
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=haijian-wang/EartAgent&type=Date)](https://star-history.com/#haijian-wang/EartAgent&Date)
