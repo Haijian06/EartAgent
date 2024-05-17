@@ -151,7 +151,7 @@ How to use it? Let's take real-time voice dialog as an example
 ### 🙂 Feel free to contact me for a discussion
 - 😃 email:wanghaijian05@gmail.com
 - 🫡 Wechat:AI_nlp_john
-- Thank you to everyone who helped me.
+- 🤓 Thank you to everyone who helped me.
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=haijian-wang/EartAgent&type=Date)](https://star-history.com/#haijian-wang/EartAgent&Date)
