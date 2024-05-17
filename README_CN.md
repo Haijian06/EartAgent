@@ -45,6 +45,10 @@ EartAgent(Efficient and real-time Agent) EartAgent是一款多模态多智能体
    > ```bash
    > git clone https://github.com/haijian-wang/EartAgent.git
    > ```
+   > 安装依赖包
+   > ```bash
+   > pip install -r requirements.txt
+   > ```
 
 ### 🚀 快速开始
 
