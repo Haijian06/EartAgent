@@ -54,7 +54,7 @@ EartAgent(Efficient and real-time Agent) EartAgent是一款多模态多智能体
    > ```python
    > import EartAgent
    >
-   > form EartAgent.Agent.text_Agent import QwenAgent
+   > form EartAgent.Agent.text_Agent import *
    > 
    > QwenAgent.api_key = "your_api_key"
    > agent = QwenAgent(
