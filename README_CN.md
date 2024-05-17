@@ -140,6 +140,12 @@ EartAgent(Efficient and real-time Agent) EartAgent是一款多模态多智能体
    ># 这里可以定义反思次数   
    >reflected_content = qwen_reflector.Mreflect(reflection_count=3)        
    > ```
+### 🤪 对于框架的我们做的内容还有很多，大家可以跟着使用
+### 🙂 欢迎和我一起交流和探讨
+- 😃 email:wanghaijian05@gmail.com
+- 🫡 Wechat:AI_nlp_john
+- 感谢所有帮助过我的人！
+   
 
    
    
