@@ -38,13 +38,19 @@ Translated with DeepL.com (free version)
 - python >= 3.9 
    > If you do not have pytorch installed locally (Windows, Mac, or Linux), you can install it yourself by referring to the documentation [Install pytorch](https://pytorch.org/).
    > Recommended to use conda as an administrative tool, you can create a new Python 3.9 virtual environment with the following command:
-   >
+   > Creating a conda environment
    > ```bash
    > conda create -n EartAgent python=3.9
-   > conda activate EartAgent
    > ```
    > ```bash
+   > conda activate EartAgent
+   > ```
+   > Pulling items
+   > ```bash
    > git clone https://github.com/haijian-wang/EartAgent.git
+   > ```
+   > ```bash
+   > cd EartAgent
    > ```
    > Installation of dependencies
    > ```bash
