@@ -1,0 +1,12 @@
+[
+{
+    "timestamp": "2024-05-17 10:37:20",
+    "agent_config": {
+        "name": "\u5c0f\u674e",
+        "model_name": null,
+        "temperature": null,
+        "max_tokens": null,
+        "remember": false
+    }
+}
+]
