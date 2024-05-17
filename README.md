@@ -27,11 +27,7 @@ EartAgent(Efficient and real-time Agent) EartAgent是一款多模态多智能体
 ### 📝 前提条件
 
 - python >= 3.9 
-  > 如果你并没有在本机安装 pytorch（Windows、Mac，或者 Linux）, 可以参考文档 [Install pytorch](https://pytorch.org/) 自行安装。
-
-### 🚀 快速开始
-
-1. 以下实例我们使用中国通义大模型为示例：
+   > 如果你并没有在本机安装 pytorch（Windows、Mac，或者 Linux）, 可以参考文档 [Install pytorch](https://pytorch.org/) 自行安装。
    > 推荐使用conda作为管理工具，您可以使用以下命令创建一个新的Python 3.9虚拟环境：
    >
    > ```bash
@@ -41,7 +37,12 @@ EartAgent(Efficient and real-time Agent) EartAgent是一款多模态多智能体
    > ```bash
    > pip install -r
    > ```
-   > 需要提前申请api_key,根据你的需求进行申请：
+
+### 🚀 快速开始
+
+1. 以下实例我们使用中国通义大模型为示例：
+
+   > 需要提前申请api_key,根据你的需求进行[申请](https://dashscope.console.aliyun.com/apiKey)：
    > ```python
    > import EartAgent
    >
@@ -93,6 +94,7 @@ EartAgent(Efficient and real-time Agent) EartAgent是一款多模态多智能体
    >hub.remove_agent(agent_3)
    >```
 3. 我们准备了丰富的工具提供给Agent进行使用比如智能体联网
+   >但是在这里需要申请[search_api_key](https://serpapi.com/)
    >```python
    >agent_1 = QwenAgent(
    >     config=AgentConfig(name='Kerry',
@@ -101,14 +103,29 @@ EartAgent(Efficient and real-time Agent) EartAgent是一款多模态多智能体
    >                            {'name': 'serpapi_search', 'api_key': 'your_search_api_key'}
    >                        ]))
    > ```
-4. 我们还有更多的工具可以使用,具体的如下
+5. 我们还有更多的工具可以使用,具体的如下,UtilityTools里面有很多工具等待你去探索
    >```python
    >from EartAgent.utils.UT import UtilityTools
    >tools = UtilityTools()
    >```
-   >我们里面有很多工具等待你去探索
-5.我们还提供更多开箱即用的实例
    >
+### 🚀 封装实例
+在EartAgent中我们提供了很多让开发者开箱即用的封装实例,例如(网站克隆、论文写作、实时语音对话等等)
+如何使用？我们以实时语音对话为例
+   > 仍然需要提前申请api_key,根据你的需求进行[申请](https://dashscope.console.aliyun.com/apiKey)：
+   > ```python
+   >from EartAgent.app_packaging.voice_dialog_assistant import VoiceAssistant
+   >assistant = VoiceAssistant(api_key="your_api_key")
+   >assistant.run()        
+   > ```
+### 🤗 反思机制
+在EartAgent中我们可以让Agent进行自我反思，以输出更好的回答
+   > ```python
+   >from EartAgent.thinking.reflector import AgentReflector
+   >qwen_reflector = AgentReflector(qwen_agent)
+   ># 这里可以定义反思次数   
+   >reflected_content = qwen_reflector.Mreflect(reflection_count=3)        
+   > ```
 
    
    
