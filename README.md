@@ -55,7 +55,7 @@ Translated with DeepL.com (free version)
    >```python
    > import EartAgent
    >
-   > form EartAgent.Agent.text_Agent import QwenAgent
+   > form EartAgent.Agent.text_Agent import *
    > 
    > QwenAgent.api_key = “your_api_key”
    > agent = QwenAgent(
