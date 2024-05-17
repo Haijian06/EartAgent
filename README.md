@@ -17,7 +17,14 @@
 ## 💡 What is EartAgent?
 
 EartAgent (Efficient and real-time Agent) is a multimodal multi-intelligent body framework, through the compatibility of the large model ecology, for the current large model exists such as outdated information, the lack of external validation, error prediction frequently, etc., EartAgent framework aims to improve the efficiency and accuracy of the large language model. The framework is lightweight and easy to use, with a range of tools such as real-time search capabilities, and improves answer accuracy through multi-intelligence collaboration and reflection mechanisms. The framework is highly compatible and provides packaging examples to realize out-of-the-box use.
-
+At high fault tolerance, we also provide wrapper examples for developers to use out of the box:
+- 😃 Example
+  - Real-time voice dialog
+  - Website cloning
+  - Thesis writing
+- 😁 Games.
+  - Werewolf
+  - Italian Town Life
 ## 📌 Recent Updates
 - 2024-05-17 Expected to go live on github on May 17th
 - 2024-05-15 Integration of large models OpenAI GPT-4o, Gemini1.5pro.
@@ -107,21 +114,24 @@ Translated with DeepL.com (free version)
    > ```
 5. There are many more tools available to us, as follows, and UtilityTools is full of them for you to explore.
    >UtilityTools has many tools for you to explore.
+   >```python
    >from EartAgent.utils.UT import UtilityTools
    >tools = UtilityTools()
    >```
    >
 ### 🚀 Encapsulation Examples
-In EartAgent we provide a lot of out-of-the-box wrapper examples for developers to use, such as (website cloning, essay writing, real-time voice dialog, etc.).
+
+1. In EartAgent we provide a lot of out-of-the-box wrapper examples for developers to use, such as (website cloning, essay writing, real-time voice dialog, etc.).
 How to use it? Let's take real-time voice dialog as an example
    > Still need to apply for api_key in advance, according to your needs to [apply](https://dashscope.console.aliyun.com/apiKey):
-   > ``python
+   > ```python
    >from EartAgent.app_packaging.voice_dialog_assistant import VoiceAssistant
    >assistant = VoiceAssistant(api_key=“your_api_key”)
    >assistant.run()        
    > ```
 ### 🤗 Reflection mechanism
-In EartAgent we can have the Agent reflect on itself to output better answers
+
+1. In EartAgent we can have the Agent reflect on itself to output better answers
    > ```python.
    >from EartAgent.thinking.reflector import AgentReflector
    >qwen_reflector = AgentReflector(qwen_agent)
