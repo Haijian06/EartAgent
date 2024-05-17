@@ -151,7 +151,7 @@ EartAgent(Efficient and real-time Agent) EartAgent是一款多模态多智能体
 - 😃 邮箱:wanghaijian05@gmail.com
 - 🫡 微信:AI_nlp_john
 - 🤓 感谢所有帮助过我的人！
-## Star History
+## ⭐  Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=haijian-wang/EartAgent&type=Date)](https://star-history.com/#haijian-wang/EartAgent&Date)
    
