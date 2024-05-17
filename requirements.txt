@@ -1,0 +1,15 @@
+sounddevice
+numpy
+dashscope
+requests
+openai
+serpapi
+python-docx
+PyPDF2
+python-pptx
+langchain-community
+mammoth
+textract
+flask
+emoji
+pyaudio
