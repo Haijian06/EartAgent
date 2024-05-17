@@ -141,6 +141,10 @@ How to use it? Let's take real-time voice dialog as an example
    ># Here you can define the number of reflections   
    >reflected_content = qwen_reflector.Mreflect(reflection_count=3)        
    > ```
-
+### 🤪 There's more to the framework
+### 🙂 Feel free to contact me for a discussion
+- 😃 email:wanghaijian05@gmail.com
+- 🫡 Wechat:AI_nlp_john
+- Thank you to everyone who helped me.
    
    
