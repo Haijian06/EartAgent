@@ -26,7 +26,7 @@ At high fault tolerance, we also provide wrapper examples for developers to use 
   - Werewolf
   - Italian Town Life
 ## 📌 Recent Updates
-- 2024-05-18 Integration of the Great Model Yi!
+- 2024-05-18  Integration of the Great Model Yi!
 - 2024-05-17 EartAgent has been released on github on May 17th!
 - 2024-05-15 Integration of large models OpenAI GPT-4o, Gemini1.5pro.
 
