@@ -181,6 +181,36 @@ class KimiAgent(Agent):
         )
         return completion.choices[0].message.content
 
+class YiAgent(Agent):
+    api_key: str = None
+    default_model_name = "yi-large"
+
+    def __init__(self, config: AgentConfig):
+        super().__init__(config)
+        self.config.model_name = config.model_name or self.default_model_name
+
+    def chat(self, sys_prompt: str) -> str:
+
+        tool_context = self.integrate_tools(sys_prompt)
+        context = []
+
+        if tool_context != context:
+            full_prompt = f"{sys_prompt}+'The results of the web search are as follows:'+{tool_context}"
+        else:
+            full_prompt = sys_prompt
+        self.remember(f"users say that：{sys_prompt}")
+        messages = self.build_messages(full_prompt)
+        client = OpenAI(
+            api_key=self.api_key,
+            base_url="https://api.lingyiwanwu.com/v1"
+        )
+        completion = client.chat.completions.create(
+            model=self.config.model_name,
+            messages=messages,
+            # temperature=self.config.temperature or 0.3,
+        )
+        return completion.choices[0].message.content
+
 
 class BaiChuanAgent(Agent):
 
