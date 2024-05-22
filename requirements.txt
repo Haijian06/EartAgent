@@ -13,3 +13,4 @@ textract
 flask
 emoji
 pyaudio
+zhipuai
