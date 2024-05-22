@@ -25,8 +25,10 @@ EartAgent(Efficient and real-time Agent) EartAgent是一款多模态多智能体
 - 😁游戏:
   - 狼人杀
   - 意大利小镇生活
+  - 模拟法庭
 
 ## 📌 近期更新
+- 2024-05-22 集成大模型智谱AI，添加游戏模拟法庭
 - 2024-05-18 集成大模型零一万物
 - 2024-05-17 EartAgent5月17号正式上线github
 - 2024-05-15 集成大模型 OpenAI GPT-4o、Gemini1.5pro。
