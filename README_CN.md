@@ -28,6 +28,7 @@ EartAgent(Efficient and real-time Agent) EartAgent是一款多模态多智能体
   - 模拟法庭
 
 ## 📌 近期更新
+- 2024~~~~~~ 一键构建更简单的RAG，我们正在努力，敬请期待☺️
 - 2024-05-22 集成大模型智谱AI，添加游戏模拟法庭
 - 2024-05-18 集成大模型零一万物
 - 2024-05-17 EartAgent5月17号正式上线github
