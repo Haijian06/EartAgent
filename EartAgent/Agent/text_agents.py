@@ -211,6 +211,35 @@ class YiAgent(Agent):
         )
         return completion.choices[0].message.content
 
+class ZhipuAgent(Agent):
+    api_key: str = None
+    default_model_name = "glm-4"
+
+    def __init__(self, config: AgentConfig):
+        super().__init__(config)
+        self.config.model_name = config.model_name or self.default_model_name
+
+    def chat(self, sys_prompt: str) -> str:
+
+        tool_context = self.integrate_tools(sys_prompt)
+        context = []
+
+        if tool_context != context:
+            full_prompt = f"{sys_prompt}+'The results of the web search are as follows:'+{tool_context}"
+        else:
+            full_prompt = sys_prompt
+        self.remember(f"users say that：{sys_prompt}")
+        messages = self.build_messages(full_prompt)
+        client = ZhipuAI(
+            api_key=self.api_key
+        )
+        completion = client.chat.completions.create(
+            model=self.config.model_name,
+            messages=messages,
+            # temperature=self.config.temperature or 0.3,
+        )
+        return completion.choices[0].message.content
+
 
 class BaiChuanAgent(Agent):
 
