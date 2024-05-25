@@ -88,7 +88,7 @@ At high fault tolerance, we also provide wrapper examples for developers to use 
 2. Multi-intelligentsia coordinated work and communication:
    >Multi-intelligence collaboration can greatly prompt the accuracy of responses, and MsgHub and Pipeline are the main means of communication between intelligences in EartAgent
    >If we want agent_1 and agent_2 to communicate then it would be
-   >```python.
+   >```python
    >while True:
    >  x = agent_1t(x)
    >  x = agent_2(x)
@@ -104,7 +104,7 @@ At high fault tolerance, we also provide wrapper examples for developers to use 
    >final_response = pipeline.execute_pipeline(initial_message=“Initial message to pipeline”)
    >```
    > Actually agent can also communicate in group chats
-   >```python.
+   >```python
    >hub = MsgHub(agent_list)
    >hub.broadcast_message(“Hello, everyone.”)
    >hub.execute_pipeline()
@@ -144,7 +144,7 @@ How to use it? Let's take real-time voice dialog as an example
 ### 🤗 Reflection mechanism
 
 1. In EartAgent we can have the Agent reflect on itself to output better answers
-   > ```python.
+   > ```python
    >from EartAgent.thinking.reflector import AgentReflector
    >qwen_reflector = AgentReflector(qwen_agent)
    ># Here you can define the number of reflections   
