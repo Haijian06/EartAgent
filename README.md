@@ -78,7 +78,8 @@ At high fault tolerance, we also provide wrapper examples for developers to use 
    > Memory is not turned on by default because it will cost you more tokens, but of course it is convenient to turn it on
    > ```python
    > agent = QwenAgent(
-   > config=AgentConfig(name='kerry', system_prompt=“”,remember=True))
+   >   config=AgentConfig(name='kerry', system_prompt=“”,remember=True)
+   > )
    > ```
    > We also support uploading all files and URLs to make Agent replies more what you want them to be.
    > ```python
@@ -88,14 +89,14 @@ At high fault tolerance, we also provide wrapper examples for developers to use 
    >Multi-intelligence collaboration can greatly prompt the accuracy of responses, and MsgHub and Pipeline are the main means of communication between intelligences in EartAgent
    >If we want agent_1 and agent_2 to communicate then it would be
    >```python.
-   >while True.
-   >x = agent_1t(x)
-   >x = agent_2(x)
+   >while True:
+   >  x = agent_1t(x)
+   >  x = agent_2(x)
    >
    ># If the user types “exit”, terminate the dialog.
-   >if x.content == “exit”.
-   > print(“Exiting the conversation.”)
-   > break
+   >if x.content == “exit”:
+   >   print(“Exiting the conversation.”)
+   >   break
    >```
    >Simpler you just need, EartAgent provides the option of Pipeline to maintain the flow of messages between intelligences
    >```python
