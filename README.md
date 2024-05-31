@@ -27,6 +27,7 @@ At high fault tolerance, we also provide wrapper examples for developers to use 
   - Italian Town Life
   - moot court
 ## 📌 Recent Updates
+- 2024-05-31 We try our best to build the best function call
 - 2024~~~~~~ One click to build a simpler RAG, we're working on it, stay tuned!☺️
 - 2024-05-22 Integrate model zhipuAI, add moot court games
 - 2024-05-18  Integration of the Great Model Yi!
