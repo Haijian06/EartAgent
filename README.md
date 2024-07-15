@@ -158,5 +158,5 @@ How to use it? Let's take real-time voice dialog as an example
 - 🤓 Thank you to everyone who helped me.
 ## ⭐ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=haijian-wang/EartAgent&type=Date)](https://star-history.com/#haijian-wang/EartAgent&Date)
+[[![Star History Chart](https://api.star-history.com/svg?repos=haijian-wang/EartAgent&type=Date)](https://star-history.com/#haijian-wang/EartAgent&Date)](https://star-history.com/#Haijian06/EartAgent&Date)
    
