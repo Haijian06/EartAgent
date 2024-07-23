@@ -21,7 +21,7 @@ from EartAgent.utils.UT import UtilityTools
 
 """
 @EartAgentV1.0
-    Includes ali qwen series, kimi series, baichuan series, zero-one-everything (loading), Deepseek, llama3, chatgpt series, claude series, phi-3
+    Includes ali qwen series, kimi series, baichuan series, 01AI, Deepseek, llama3, chatgpt series, claude series, phi-3
 """
 
 
