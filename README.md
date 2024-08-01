@@ -14,7 +14,6 @@
   </a>
 </p>
 
-
 ## 💡 What is EartAgent？
 
 EartAgent (Efficient and real-time Agent) is a multimodal multi-intelligent body framework, through the compatibility of the large model ecology, for the current large model exists such as outdated information, the lack of external validation, error prediction frequently, etc., EartAgent framework aims to improve the efficiency and accuracy of the large language model. The framework is lightweight and easy to use, with a range of tools such as real-time search capabilities, and improves answer accuracy through multi-intelligence collaboration and reflection mechanisms. The framework is highly compatible and provides packaging examples to realize out-of-the-box use.
