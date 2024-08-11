@@ -73,14 +73,14 @@ At high fault tolerance, we also provide wrapper examples for developers to use 
    > 
    > QwenAgent.api_key = “your_api_key”
    > agent = QwenAgent(
-   > config=AgentConfig(name='kerry', system_prompt=“”))
+   > config=AgentConfig(name='kerry', system_prompt=""))
    > x = 'Hi kerry'
    > agent(x)
    > ```
    > Memory is not turned on by default because it will cost you more tokens, but of course it is convenient to turn it on
    > ```python
    > agent = QwenAgent(
-   >   config=AgentConfig(name='kerry', system_prompt=“”,remember=True)
+   >   config=AgentConfig(name='kerry', system_prompt="",remember=True)
    > )
    > ```
    > We also support uploading all files and URLs to make Agent replies more what you want them to be.
@@ -96,7 +96,7 @@ At high fault tolerance, we also provide wrapper examples for developers to use 
    >  x = agent_2(x)
    >
    ># If the user types “exit”, terminate the dialog.
-   >if x.content == “exit”:
+   >if x.content == "exit":
    >   print(“Exiting the conversation.”)
    >   break
    >```
