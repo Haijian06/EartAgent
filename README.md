@@ -71,7 +71,7 @@ At high fault tolerance, we also provide wrapper examples for developers to use 
    >
    > form EartAgent.Agent.text_Agent import *
    > 
-   > QwenAgent.api_key = “your_api_key”
+   > QwenAgent.api_key = "your_api_key"
    > agent = QwenAgent(
    > config=AgentConfig(name='kerry', system_prompt=""))
    > x = 'Hi kerry'
