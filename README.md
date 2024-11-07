@@ -22,7 +22,7 @@ At high fault tolerance, we also provide wrapper examples for developers to use 
   - Real-time voice dialog
   - Website cloning
   - Thesis writing
-- 😁 Games.
+- 😁 Games
   - Werewolf
   - Italian Town Life
   - moot court
