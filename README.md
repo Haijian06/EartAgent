@@ -1,6 +1,7 @@
 <div align="center">
 <img src="assets/130898843/f145bbb8-ed97-4025-a40b-4260a8a75f6bno_alpha-4.png"  alt="EartAgent logo">
 </a>
+
 </div>
 
 <p align="center">
