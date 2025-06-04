@@ -64,7 +64,7 @@ At high fault tolerance, we also provide wrapper examples for developers to use 
 
 ### 🚀 Getting Started Quickly
 
-1. In the following examples we use the China Tongyi Big Model as an example:
+1. In the following examples we use the China Tongyi Model as an example:
 
    > You need to apply api_key in advance, [apply](https://dashscope.console.aliyun.com/apiKey) according to your needs:
    >```python
